@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Chapter(){
     return (
-        <div className="bg-gray-900 h-screen">
+        <div className="bg-gray-900">
             <div className="text-white text-5xl text-center font-bold p-40 pl-80">
                 <a className="text-yellow-300 p-2 text-4xl">✦</a> 
                     CONTENT
@@ -12,7 +12,7 @@ export default function Chapter(){
                 <Link href="/about" className="hover:underline hover:text-yellow-200"><a className="p-2 text-yellow-300">✦</a>ABOUT ME</Link>
                 <Link href="/market" className="pt-4 hover:underline hover:text-yellow-200"> <a className="p-2 text-yellow-300">✦</a>MARKET</Link>
                 <Link href="/mbti" className="pt-4 hover:underline hover:text-yellow-200"> <a className="p-2 text-yellow-300">✦</a>MBTI</Link>
-                <div className="pt-4 hover:underline hover:text-yellow-200"><a className="p-2 text-yellow-300">✦</a>JSTAR</div>
+                <Link href="/jstar" className="pt-4 hover:underline hover:text-yellow-200"><a className="p-2 text-yellow-300">✦</a>JSTAR</Link>
             </div>
             
         </div>
